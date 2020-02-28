@@ -1,0 +1,207 @@
+body´{
+	font-family: "Helvetica Neue";
+	font-size: 15px;
+	color: #444;
+	font-weight: 300px;
+
+}
+header{
+	position: absolute;
+	background-color: rgba(0,0,0,0.65);
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
+	color: #fff;
+	padding: 20px;
+}
+header h1{
+	font-size: 24px;
+}
+
+#hero{
+	background-image: url("img/Oshine-Arquitect-9/v9-slide-1.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	color: #fff;
+	padding: 15% 0;
+	text-align: center;
+}
+#hero h1{
+	font-size: 60px;
+	text-transform: uppercase;
+	font-weight: 300;
+	letter-spacing: 4px;
+	margin-bottom: 40px;
+	
+}
+#hero h3{
+	font-size: 16px;
+	font-weight: 300;
+	margin-bottom: 30px;
+}
+#hero .btn-dark{
+	background-color: #000;
+	text-transform: uppercase;
+	font-size: 14px;
+	padding: 15px 30px;
+	border-radius: 0;
+	margin-right: 20px;
+	letter-spacing: 2px;
+	
+}
+#hero .btn-dark:hover,
+#hero .btn-active{
+	background-color: #d80808;
+}
+#hero .btn-active:hover{
+	background-color: #000;
+	
+	
+}
+#info{
+	font-family: "Helvetica Neue";
+	margin-top: 180px;
+	margin-bottom: 150;
+	text-align: center;
+}
+
+#info h3{
+	text-transform: uppercase;
+	color: #222;
+	margin-bottom: 20px;
+}
+
+#info p{
+	color: #444;
+	line-height: 30px
+}
+
+.titulo{
+	font-size: 36px;
+	font-weight: 300;
+	text-align: center;
+	letter-spacing: 2px;
+	color: #2d2d2d;
+}
+.titulo::after{
+	content: '';
+	border: 1px solid #2d2d2d;
+	display: block;
+	width: 50px;
+	margin: 30px auto;
+}
+
+.subtitulo{
+	font-size: 24px;
+	color: #444;
+	font-weight: 300px;
+	margin-bottom: 30px;
+}
+
+.bg-gris{
+	background-color: #f2f2f2;
+	padding: 5% 5% !important;
+}
+
+.bg-blanco{
+	background-color: #fff;
+	padding: 5% 5% !important;
+}
+
+.btn-negro{
+	background-color: transparent;
+	border: 1px solid #000;
+	padding: 10px 20px;
+	border-radius: 0;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+
+.btn-negro:hover{
+	background-color: #d80808;
+	color: #fff;
+	border-color: #d80808;
+}
+
+#about .titulo,
+#about02 .titulo{
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+#about .titulo::after,
+#about02 .titulo::after{
+	display: none;
+	text-align: left;
+}
+
+#recentproyect{
+	background-color: #f2f2f2;
+	padding: 100px 0;
+}
+
+.proyect{
+	position: relative;
+	overflow: hidden;
+}
+
+.proyect-info{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	text-align: center;
+	display:grid;
+	align-content: center;
+	color: #fff;
+	background-color: rgba(176,0,2,0.70);
+	opacity: 0;
+	transition: all 0.3s ease-in-out;
+}
+
+.proyect-info h4{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+               
+.proyect:hover .proyect-info{
+	opacity: 1;
+	transition: all 0.3s ease-in-out;
+}
+
+.proyect img{
+	transition: all 0.3s ease-in-out;
+}
+
+.proyect:hover img{
+	transform: scale(1.3);
+	transition: all 0.3s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
