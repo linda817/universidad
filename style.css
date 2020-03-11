@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+
+#hero-contact{
+	background-image: url("../img/Oshine-Arquitect-9/bg-contact.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 60;
+}
 body´{
-	font-family: "Helvetica Neue";
+	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
 	color: #444;
 	font-weight: 300px;
@@ -180,9 +188,152 @@ header h1{
 	transition: all 0.3s ease-in-out;
 }
 
+.overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.60);
+	top: 0;
+}
 
+.proyect-icon{
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 999;
+	padding: 5px;
+}
 
+.proyect-icon h4{
+	color: #fff;
+	font-size: 16px;
+	font-weight: 300;
+}
 
+.img-gris:hover img{
+	filter: grayscale(1);
+}
+
+.proyect-img{
+	position: absolute;
+	bottom: 0;
+	right: 50%;
+	z-index: 999;
+	padding: 5px;
+}
+
+.overlay azul{
+	color: #1970BC;
+}
+
+#info-footer{
+	background-color: #3d3f3e;
+	color:#a2a2a2;
+	padding: 40px 0;
+	font-size: 13px;
+}
+
+#info-footer h4{
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #dfdfdf;
+	margin-bottom: 25px;
+}
+
+.redes i{
+	background-color: #464646;
+	color: #fff;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	border-radius: 100%;
+	transition: all 0.3s ease-in-out;
+}
+
+.redes i:hover{
+	background-color: #d80808;
+	transition: all 0.3s ease-in-out;
+}
+
+#copyright{
+	background-color: #2c2e2e;
+	color: #888;
+	padding: 10px 0;
+	font-size: 12px;
+}
+#copyright a{
+	color: #888;
+}
+
+#copyright a:hover{
+	color: #fff;
+}
+
+#hero-contact{
+	background-image: url("./img/Oshine-Arquitect-9/bg-contact.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 60vh;
+}
+
+.section{
+	padding: 60px 0;
+}
+
+.icon-up{
+	position: relative;
+	background-color: #f2f4f8;
+	height: 200px;
+	overflow: hidden;
+}
+
+.icono{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: grid;
+	align-content: center;
+	text-align: center;
+	color: #d80808;
+	font-size:40px;
+	top: 0;
+	transition: all 0.3s ease-in;
+}
+
+.texto{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: grid;
+	align-content: center;
+	opacity: 0;
+	text-align: center;
+	top: 100%;
+	transition: all 0.3s ease-in;
+}
+
+.icon-up:hover .icono{
+	opacity: 0;
+	top: -100%;
+	transition: all 0.3s ease-in;
+}
+
+.icon-up:hover .texto{
+	opacity: 1;
+	top: 0;
+	transition: all 0.3s ease-in;
+}
+
+#map{
+	width: 100%px;
+	height: 400px;
+}
+
+.form-control{
+	background-color: #f2f4f8;
+	border-radius: 0;
+}
 
 
 
