@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
 
 #hero-contact{
-	background-image: url("../img/Oshine-Arquitect-9/bg-contact.jpg");
+	background-image: url("img/Oshine-Arquitect-9/bg-contact.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	min-height: 60;
@@ -271,7 +271,7 @@ header h1{
 }
 
 #hero-contact{
-	background-image: url("./img/Oshine-Arquitect-9/bg-contact.jpg");
+	background-image: url("img/Oshine-Arquitect-9/bg-contact.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	min-height: 60vh;
